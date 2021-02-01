@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.intro {
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    min-height: 60vh;
+    width: 80%;
+    font-family: 'Roboto', sans-serif;
+}
+.intro h1 {
+    text-transform: uppercase;
+    margin-top: 40vh;
+}
+.intro p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.second-div {
+    background-color: #fff;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.second-div-text {
+    order: 1;
+    flex-grow: 1;
+    min-width: 30%;
+    margin-top: 25vh;
+    font-size: 2.3em;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 25vh;
+    background-color: white;
+}
+#kanyeQuote {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+.second-div-image {
+    order: 2;
+    flex-grow: 1;
+    min-width: 45%;
+    align-self: flex-end;
+    max-width: 500px;
+}
+#kanyeImg {
+    max-width: 100%;
+    box-sizing: border-box;
+    float: right;
+}
+.third-div {
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 50%;
+    color: white;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+h3 {
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+.kanyeBio {
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+.copyright {
+    margin: 20px auto;
+    text-align: center;
+}
+
+@media only screen and (max-width: 998px) {
+    .intro {
+        width: 100%;
+    }
+    .third-div {
+        width: 80%;
+    }
+  }
